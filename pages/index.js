@@ -8,7 +8,7 @@ import Date from '../components/date'
 export default function Home({ allPostsData }) {
   return (
     <html className = {styles.body}>
-        <body>
+        <body className = {styles.body}>
           <div className = {styles.makeheight}>
             <Link href={'/'}>
               <a className={styles.logo}>

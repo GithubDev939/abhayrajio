@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 export default function Post({ postData }) {
   return (
-    <html>
+    <html className = {styles.body}>
       <body className = {styles.body}>
       <div>
             <Link href={'/'}>

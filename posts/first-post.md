@@ -1,6 +1,6 @@
 ---
 title: "My First Post on my First Site"
-date: "8/5/2021"
+date: "08/05/2021"
 ---
 
 Hello, all!

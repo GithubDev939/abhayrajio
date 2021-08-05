@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+.body {
+    background-color: #000D1A;
+}
+.logo {
+    display: block;
+    text-indent: -9999px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background: url(logo.svg);
+    background-size: 100px 100px;
+    filter: invert(1.0);
+}
+.maintext {
+    font-family: 'Space Mono', monospace;
+    font-size: 75px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom:35px;
+    text-align: center;
+    line-height: 100px;
+}
+.text {
+    font-family: consolas;
+    font-size: 30px;
+    color: white;
+    line-height: 35px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.blogpost{
+    background-color: white;
+    border: solid 2px white;
+    border-radius: 10px;
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+    box-shadow: 4px 3px 8px 1px #969696;
+  	-webkit-box-shadow: 8px 6px 16px 1px #969696;
+}
+
+.posttext {
+    color: black;
+    background-color: white;
+}

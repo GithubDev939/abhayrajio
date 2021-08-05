@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+.maintext {
+    font-family: 'Space Mono', monospace;
+    font-size: 100px;
+    color: white;
+    margin-top: 100px;
+    margin-bottom:35px;
+    line-height: 100px;
+}
+.text {
+    font-family: consolas;
+    font-size: 30px;
+    color: white;
+    line-height: 35px;
+    margin-left: 15px;
+}
+.textwfont {
+    font-family: 'Space Mono', monospace;
+    font-size: 30px;
+    color: white;
+    line-height: 35px;
+    margin-left: 15px;
+    border: solid 2px black;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.textwfont:hover {
+    font-family: 'Space Mono', monospace;
+    font-size: 30px;
+    color: black;
+    background-color: white;
+    line-height: 35px;
+    margin-left: 15px;
+    border: solid 2px white;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.removeunderline {
+    text-decoration: none;
+}
+.body {
+    background-color: #000D1A;
+}
+.codepointer {
+    background-color: white;
+    animation-name: codepointeranimation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes codepointeranimation {
+    0% {background-color: white;}
+    5% {background-color: #000D1A;}
+    10% {background-color: white;}
+    15% {background-color: #000D1A;}
+    20% {background-color: white;}
+    25% {background-color: #000D1A;}
+    30% {background-color: white;}
+    35% {background-color: #000D1A;}
+    40% {background-color: white;}
+    45% {background-color: #000D1A;}
+    50% {background-color: white;}
+    55% {background-color: #000D1A;}
+    60% {background-color: white;}
+    65% {background-color: #000D1A;}
+    70% {background-color: white;}
+    75% {background-color: #000D1A;}
+    80% {background-color: white;}
+    85% {background-color: #000D1A;}
+    90% {background-color: white;}
+    95% {background-color: #000D1A;}
+}
+.logo {
+    display: block;
+    text-indent: -9999px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background: url(logo.svg);
+    background-size: 100px 100px;
+    filter: invert(1.0);
+}
+.arrowdown {
+    border: solid white;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 5px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin-top: 100px;
+    margin-left:720px;
+    opacity:1;  
+    animation: arrowdownanimation 1s infinite;
+}
+@keyframes arrowdownanimation {
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+}
+
+.blogtitle {
+    font-family: 'Space Mono', monospace;
+    font-size: 75px;
+    color: white;
+    margin-top: 200px;
+    margin-bottom:0px;
+    margin-left: 500px;
+}
+
+.blogpost {
+    border: solid 2px white;
+    border-radius: 5px;
+    margin-right: 45px;
+    margin-bottom: 10px;
+}
+
+.blogpost:hover {
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 10px white;
+}
+
+.leftside {
+    float: left;
+    margin-left: 10px;
+}
+.rightside {
+    float: right;
+    margin-right: 10px;
+}
+.inline {
+    height: 100px;
+    display: inline-block;
+}

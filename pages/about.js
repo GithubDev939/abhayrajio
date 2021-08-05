@@ -4,7 +4,7 @@ import styles from '../styles/about.module.css'
 export default function Home() {
   return (
       <html className = {styles.body}>
-        <body>
+        <body className = {styles.body}>
           <div className = {styles.makeheight}>
             <Link href={'/'}>
               <a className={styles.logo}>

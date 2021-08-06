@@ -40,11 +40,11 @@
     box-shadow: 4px 3px 8px 1px #969696;
   	-webkit-box-shadow: 8px 6px 16px 1px #969696;
     margin-bottom: 20px;
+    white-space : pre-wrap !important;
+    word-break: break-word;
 }
 
 .posttext {
     color: black;
     background-color: white;
-    white-space : pre-wrap !important;
-    word-break: break-word;
 }

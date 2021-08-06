@@ -45,4 +45,6 @@
 .posttext {
     color: black;
     background-color: white;
+    white-space : pre-wrap !important;
+    word-break: break-word;
 }

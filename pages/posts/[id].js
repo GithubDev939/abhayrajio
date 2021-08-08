@@ -16,7 +16,7 @@ export default function Post({ postData }) {
             </Link>
           </div>
         <h1 className = {styles.maintext}> {postData.title} </h1>
-        <p className = {styles.text}>written <Date dateString={postData.date} /></p>
+        <p className = {styles.text}>written {postData.date}/></p>
         <div className = {styles.blogpost}>
           <div className = {styles.posttext} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
         </div>

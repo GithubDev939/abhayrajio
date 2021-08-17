@@ -9,13 +9,6 @@ export default function Home({ allPostsData }) {
   return (
     <html className = {styles.body}>
         <body className = {styles.body}>
-          <span id="wts2073994"></span>
-          <script>var wts=document.createElement('script');wts.async=true;
-          wts.src='https://app.wts2.one/log7.js';document.head.appendChild(wts);
-          wts.onload = function(){ wtslog7(2073994,2); };
-          </script><noscript><a href="https://www.web-stat.com">
-          <img src="https://app.wts2.one/7/2/2073994.png" 
-          alt="Web-Stat analytics"></a></noscript>
           <div className = {styles.makeheight}>
             <Link href={'/'}>
               <a className={styles.logo}>

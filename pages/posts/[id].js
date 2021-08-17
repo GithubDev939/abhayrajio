@@ -8,7 +8,6 @@ export default function Post({ postData }) {
   return (
     <html className = {styles.body}>
       <body className = {styles.body}>
-        <!-- Begin Web-Stat code v 7.0 -->
         <span id="wts2073994"></span>
         <script>var wts=document.createElement('script');wts.async=true;
         wts.src='https://app.wts2.one/log7.js';document.head.appendChild(wts);
@@ -16,7 +15,6 @@ export default function Post({ postData }) {
         </script><noscript><a href="https://www.web-stat.com">
         <img src="https://app.wts2.one/7/2/2073994.png" 
         alt="Web-Stat analytics"></a></noscript>
-        <!-- End Web-Stat code v 7.0 -->
       <div>
             <Link href={'/'}>
               <a className={styles.logo}>

@@ -21,7 +21,7 @@ export default function Home({ allPostsData }) {
               </Link>
             </div>
           </div>
-          <h1 className = {styles.maintext}>Hello There!<br></br>I'm Abhay Raj<span className = {styles.codepointer}>.</span></h1>
+          <h1 className = {styles.maintext}>Hello There!<br></br>I'm [Anonymous]<span className = {styles.codepointer}>.</span></h1>
           <p className = {styles.text}>And this is a high schooler's<br></br>personal website.</p>
         </body>
         <div className={styles.arrowdown}></div>

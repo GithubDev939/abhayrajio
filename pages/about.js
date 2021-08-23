@@ -15,7 +15,7 @@ export default function Home() {
           <h1 className = {styles.maintext}>About Me</h1>
           <div className = {styles.textbox}>
             <p className = {styles.text}>
-              Hi. My name is Abhay. I'm a high schooler from Seattle, Washington. 
+              Hi. I'm a high schooler from Seattle, Washington. 
               I am a beginner programmer and regularly compete in CodeForces 
               competitions as well as the annual USACO competitions. To a lesser extent, I also 
               compete in (annual) AMC10/12 competitions. This website will contain my journey
